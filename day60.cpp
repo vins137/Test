@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+int hello()
+{
+    cout<<"hello";   
+}
+
 int main()
 {
     int t,A1,A2,A3,A4,A5,A6,A7;
@@ -15,4 +20,7 @@ int main()
         else
             cout<<"no"<<endl;
     }
+    hello()
 }
+
+
